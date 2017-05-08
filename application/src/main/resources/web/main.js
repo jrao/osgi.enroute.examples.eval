@@ -3,8 +3,8 @@
 	var MODULE = 
 		angular.module('osgi.enroute.examples.eval', [ 'ngRoute' ] );
 	MODULE.config( function($routeProvider) {
-		$routeProvider.when('/', { controller: mainProvider, templateUrl: '/osgi.enroute.examples.eval/main/htm/home.htm'});
-		$routeProvider.when('/about', { templateUrl: '/osgi.enroute.examples.eval/main/htm/about.htm'});
+		$routeProvider.when('/', { controller: mainProvider, templateUrl: '/osgi.enroute.examples.eval/htm/main/home.htm'});
+		$routeProvider.when('/about', { templateUrl: '/osgi.enroute.examples.eval/htm/main/about.htm'});
 		$routeProvider.otherwise('/');
 	});
 	MODULE.run( function($rootScope, $location) {
