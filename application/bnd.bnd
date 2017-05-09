@@ -7,5 +7,4 @@ Bundle-Description: \
 EnRoute-Application: 	osgi.enroute.examples.eval
 
 -includeresource: \
-   {static/osgi.enroute.examples.eval/index.html=\
-   	src/main/resources/static/osgi.enroute.examples.eval/index.html}
+   {static/osgi.enroute.examples.eval/index.html=index.html}
